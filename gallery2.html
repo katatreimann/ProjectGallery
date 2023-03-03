@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery</title>
+    <link rel="stylesheet" href="gallery2.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <header>
+            <h1>Project Gallery</h1>
+        </header>
+
+        <div class="card">
+            <div class="pic">
+                <img src="images/hobbypage.JPG">
+            </div>
+            <div class="content">
+                <h3>Hobby Page</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus odio atque
+                    voluptates nemo magni minus, nesciunt doloremque. Earum quaerat quam fugiat recusandae optio
+                    eligendi autem natus, qui, unde nobis eum enim dolorem, excepturi placeat iusto ad iure aliquid.
+                    Aspernatur suscipit enim atque animi error est, quisquam doloremque illum ab veniam vel nemo
+                    nesciunt facilis praesentium fugit officiis dolore nulla?</p>
+                <br>
+                <p>See the code on<a href="https://github.com/"> GitHub</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="images/projectgallery.JPG">
+            </div>
+            <div class="content">
+                <h3>Project Gallery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus odio atque
+                    voluptates nemo magni minus, nesciunt doloremque. Earum quaerat quam fugiat recusandae optio
+                    eligendi autem natus, qui, unde nobis eum enim dolorem, excepturi placeat iusto ad iure aliquid.
+                    Aspernatur suscipit enim atque animi error est, quisquam doloremque illum ab veniam vel nemo
+                    nesciunt facilis praesentium fugit officiis dolore nulla?</p>
+                <br>
+                <p>See the code on<a href="https://github.com/"> GitHub</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="images/yellow3.jpg">
+            </div>
+            <div class="content">
+                <h3>Movie Data</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus odio atque
+                    voluptates nemo magni minus, nesciunt doloremque. Earum quaerat quam fugiat recusandae optio
+                    eligendi autem natus, qui, unde nobis eum enim dolorem, excepturi placeat iusto ad iure aliquid.
+                    Aspernatur suscipit enim atque animi error est, quisquam doloremque illum ab veniam vel nemo
+                    nesciunt facilis praesentium fugit officiis dolore nulla?</p>
+                <br>
+                <p>See the code on<a href="https://github.com/"> GitHub</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="images/yellow3.jpg">
+            </div>
+            <div class="content">
+                <h3>Website</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus odio atque
+                    voluptates nemo magni minus, nesciunt doloremque. Earum quaerat quam fugiat recusandae optio
+                    eligendi autem natus, qui, unde nobis eum enim dolorem, excepturi placeat iusto ad iure aliquid.
+                    Aspernatur suscipit enim atque animi error est, quisquam doloremque illum ab veniam vel nemo
+                    nesciunt facilis praesentium fugit officiis dolore nulla?</p>
+                <br>
+                <p>See the code on<a href="https://github.com/"> GitHub</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+
+        <div class="card">
+            <div class="pic">
+                <img src="images/yellow3.jpg">
+            </div>
+            <div class="content">
+                <h3>Game</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus odio atque
+                    voluptates nemo magni minus, nesciunt doloremque. Earum quaerat quam fugiat recusandae optio
+                    eligendi autem natus, qui, unde nobis eum enim dolorem, excepturi placeat iusto ad iure aliquid.
+                    Aspernatur suscipit enim atque animi error est, quisquam doloremque illum ab veniam vel nemo
+                    nesciunt facilis praesentium fugit officiis dolore nulla?</p>
+                <br>
+                <p>See the code on<a href="https://github.com/"> GitHub</a></p>
+            </div>
+            <a class="more"></a>
+        </div>
+    </div>
+
+    <script>
+        let more = document.querySelectorAll('.more');
+        for (let i = 0; i < more.length; i++) {
+            more[i].addEventListener('click', function () {
+                more[i].parentNode.classList.toggle('active')
+            })
+        }
+    </script>
+</body>
+
+</html>
